@@ -1,23 +1,34 @@
 <%- include('../includes/head.ejs') %>
-    </head>
+</head>
 
-    <body>
-        <%- include('../includes/navigation.ejs') %>
-        <main>
+<body>
+    <%- include('../includes/navigation.ejs') %>
+    <main>
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
             <% if (products.length > 0) { %>
-                <ul>
-                    <% products.forEach(p => { %>
-                        <li>
-                            <p><%= p.productData.title %> (<%= p.qty %>)</p>
+                <% products.forEach(p => { %>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="<%= p.productData.imageUrl %>" alt="<%= p.productData.title %>">
+                        </div>
+                        <div class="product-info">
+                            <h3><%= p.productData.title %></h3>
+                            <p>Price: $<%= p.productData.price %></p>
+                            <p>Quantity: <%= p.qty %></p>
                             <form action="/cart-delete-item" method="POST">
                                 <input type="hidden" value="<%= p.productData.id %>" name="productId">
                                 <button class="btn" type="submit">Delete</button>
                             </form>
-                        </li>
-                    <% }) %>
-                </ul>
+                        </div>
+                    </div>
+                <% }) %>
             <% } else { %>
-                <h1>No Products in Cart!</h1>
+                <h2>Your cart is empty</h2>
             <% } %>
-        </main>
-        <%- include('../includes/end.ejs') %>
+        </div>
+        <div class="cart-total">
+            <h2>Total: $<%= totalPrice %></h2>
+        </div>
+    </main>
+    <%- include('../includes/end.ejs') %>

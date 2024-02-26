@@ -216,3 +216,32 @@ img {
     display: none;
   }
 }
+.product-card {
+  display: flex;
+  border: 1px solid #a1a1a1;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.product-image {
+  flex: 0 0 30%; /* Adjust the width as needed */
+  margin-right: 1rem;
+}
+
+.product-image img {
+  max-width: 50%;
+  height: auto;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h3 {
+  margin-top: 0;
+}
+
+.product-info p {
+  margin-bottom: 0.5rem;
+}

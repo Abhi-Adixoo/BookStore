@@ -36,18 +36,21 @@ exports.getCart = (req, res, next) => {
   Cart.getCart(cart => {
     Product.fetchAll(products => {
       const cartProducts = [];
+      let totalPrice = 0;
       for (product of products) {
         const cartProductData = cart.products.find(
           prod => prod.id === product.id
         );
         if (cartProductData) {
           cartProducts.push({ productData: product, qty: cartProductData.qty });
+          totalPrice += product.price * cartProductData.qty;
         }
       }
       res.render('shop/cart', {
         path: '/cart',
         pageTitle: 'Your Cart',
-        products: cartProducts
+        products: cartProducts,
+        totalPrice: totalPrice
       });
     });
   });

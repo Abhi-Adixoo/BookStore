@@ -171,7 +171,8 @@ img {
 }
 
 .card__image {
-  width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 .card__image img {

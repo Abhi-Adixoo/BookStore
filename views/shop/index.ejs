@@ -23,8 +23,7 @@
                             <h4 class="product__author">Author: <%= product.author %></h4>
                             <h5 class="product__pages">Pages: <%= product.pages %></h5>
                             <h5 class="product__year">Year: <%= product.year %></h5>
-                            <p class="product__description"><%= product.description %></p>
-                        </div>
+                            <p><%= product.description.substring(0, 50) %>...</p>                        </div>
                         <div class="card__actions">
                             <%- include('../includes/add-to-cart.ejs', {product: product}) %>
                         </div>

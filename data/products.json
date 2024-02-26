@@ -1,1 +1,102 @@
-[{"id":"0.0895799089354492","title":"Things Fall Apart","author":"Chinua Achebe","pages":"209","year":"1958","imageUrl":"https://m.media-amazon.com/images/I/71U3iRYNsFL._AC_UF1000,1000_QL80_.jpg","description":"Things Fall Apart is a novel written by Nigerian author Chinua Achebe. Published in 1958, its story chronicles pre-colonial life in the south-eastern part of Nigeria and the arrival of the Europeans during the late nineteenth century. It is seen as the archetypal modern African novel in English, and one of the first to receive global critical acclaim. It is a staple book in schools throughout Africa and is widely read and studied in English-speaking countries around the world. The title of the novel comes from William Butler Yeats' poem 'The Second Coming'.","price":"8.2"}]
+[
+    {
+        "id": "0.0895799089354493",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "pages": "281",
+        "year": "1960",
+        "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in high schools and middle schools in the United States, it has become a classic of modern American literature, winning the Pulitzer Prize.",
+        "price": "7.9",
+        "imageUrl": "https://m.media-amazon.com/images/I/81gepf1eMqL._SL1500_.jpg"
+    },
+    {
+        "id": "0.0895799089354494",
+        "title": "1984",
+        "author": "George Orwell",
+        "pages": "328",
+        "year": "1949",
+        "description": "1984 is a dystopian novel by English novelist George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime.",
+        "price": "6.3",
+        "imageUrl": "https://m.media-amazon.com/images/I/517USUJAueL._SX342_SY445_.jpg"
+    },
+    {
+        "id": "0.0895799089354495",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "pages": "180",
+        "year": "1925",
+        "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.",
+        "price": "5.6",
+        "imageUrl": "https://m.media-amazon.com/images/I/61ggo5KSOWL._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354496",
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "pages": "635",
+        "year": "1851",
+        "description": "Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is the sailor Ishmael's narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship's previous voyage bit off Ahab's leg at the knee.",
+        "price": "9.3",
+        "imageUrl": "https://m.media-amazon.com/images/I/716w+-OTDLL._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354497",
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "pages": "1225",
+        "year": "1869",
+        "description": "War and Peace is a novel by the Russian author Leo Tolstoy, first published serially, then published in its entirety in 1869. It is regarded as one of Tolstoy's finest literary achievements and remains a classic of world literature.",
+        "price": "12.7",
+        "imageUrl": "https://m.media-amazon.com/images/I/71oh2ApxhrL._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354498",
+        "title": "The Catcher in the Rye",
+        "author": "J. D. Salinger",
+        "pages": "277",
+        "year": "1951",
+        "description": "The Catcher in the Rye is a novel by J. D. Salinger, partially published in serial form in 1945–1946 and as a novel in 1951. It was originally intended for adults but is often read by adolescents for its themes of angst and alienation, and as a critique on superficiality in society.",
+        "price": "6.8",
+        "imageUrl": "https://m.media-amazon.com/images/I/618XWn5fD5L._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354499",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "pages": "279",
+        "year": "1813",
+        "description": "Pride and Prejudice is a romantic novel of manners written by Jane Austen in 1813. The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.",
+        "price": "7.2",
+        "imageUrl": "https://m.media-amazon.com/images/I/91fDvMK+aEL._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354500",
+        "title": "The Lord of the Rings",
+        "author": "J. R. R. Tolkien",
+        "pages": "1178",
+        "year": "1954",
+        "description": "The Lord of the Rings is an epic high-fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.",
+        "price": "10.5",
+        "imageUrl": "https://m.media-amazon.com/images/I/716KTyK-1gL._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354501",
+        "title": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "pages": "310",
+        "year": "1937",
+        "description": "The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien. It was published on 21 September 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction.",
+        "price": "8.1",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jKeGU9nKL._AC_UY218_.jpg"
+    },
+    {
+        "id": "0.0895799089354502",
+        "title": "Ulysses",
+        "author": "James Joyce",
+        "pages": "730",
+        "year": "1922",
+        "description": "Ulysses is a modernist novel by Irish writer James Joyce. It was first serialized in parts in the American journal The Little Review from March 1918 to December 1920 and then published in its entirety in Paris by Sylvia Beach on 2 February 1922, Joyce's 40th birthday.",
+        "price": "9.7",
+        "imageUrl": "https://m.media-amazon.com/images/I/61xznHSHtzL._AC_UY218_.jpg"
+    }
+]

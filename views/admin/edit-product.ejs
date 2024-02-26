@@ -24,6 +24,19 @@
                 <label for="description">Description</label>
                 <textarea name="description" id="description" rows="5"><% if (editing) { %><%= product.description %><% } %></textarea>
             </div>
+        
+            <div class="form-control">
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author" value="<% if (editing) { %><%= product.author %><% } %>">
+            </div>
+            <div class="form-control">
+                <label for="pages">Pages</label>
+                <input type="number" name="pages" id="pages" value="<% if (editing) { %><%= product.pages %><% } %>">
+            </div>
+            <div class="form-control">
+                <label for="year">Year</label>
+                <input type="number" name="year" id="year" value="<% if (editing) { %><%= product.year %><% } %>">
+            </div>
             <% if (editing) { %>
                 <input type="hidden" value="<%= product.id %>" name="productId">
             <% } %>
